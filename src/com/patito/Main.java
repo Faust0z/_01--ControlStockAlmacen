@@ -5,8 +5,6 @@ public class Main {
         UI iniciarVentana = new UI();
         iniciarVentana.show();
 
-        if(true){
-        }
 
     }
 }
