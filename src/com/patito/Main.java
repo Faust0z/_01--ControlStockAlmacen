@@ -5,6 +5,11 @@ public class Main {
         UI iniciarVentana = new UI();
         iniciarVentana.show();
 
+        if(1>12){
+            System.out.println("jaja, si e verda");
+        }
+
+
 
     }
 }
