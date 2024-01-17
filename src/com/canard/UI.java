@@ -1,4 +1,4 @@
-package com.patito;
+package com.canard;
 
 import javax.swing.*;
 import java.awt.*;

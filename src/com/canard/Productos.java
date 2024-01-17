@@ -1,4 +1,4 @@
-package com.patito;
+package com.canard;
 
 import java.util.Date;
 import java.util.ArrayList;
