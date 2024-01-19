@@ -7,19 +7,22 @@ import java.awt.event.ActionListener;
 
 public class UI extends JFrame{
     private JPanel MainPanel;
-    private JComboBox listaProductosCombo;
-    private JTextField IDProducto;
-    private JPanel InfoPanel;
-    private JTextArea textoUltimaVenta;
-    private JTextArea textoUltimoIngreso;
-    private JTextArea textoDescripcion;
-    private JButton botonMas;
-    private JButton BotonMenos;
+
     private JPanel ListaPanel;
     private JLabel labelListaProductos;
+    private JComboBox listaProductosCombo;
+    private JTextField IDProducto;
+
+    private JPanel InfoPanel;
+    private JTextField textFieldStock;
+    private JTextField textFieldUltIngres;
+    private JLabel textFieldUltVenta;
+    private JTextArea textPaneDescrip;
+
     private JPanel StockPanel;
-    private JPanel stockCantidad;
-    private JTextField cantidadStockModificar;
+    private JTextField cantModificarStock;
+    private JButton botonMas;
+    private JButton botonMenos;
 
 
     public UI() {
@@ -51,14 +54,14 @@ public class UI extends JFrame{
             }
         });
 
-        BotonMenos.addActionListener(new ActionListener() {
+        botonMenos.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Se apretó el botón menos");
             }
         });
 
-        cantidadStockModificar.addActionListener(new ActionListener() {
+        cantModificarStock.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Se escribió en la casilla de cantidadStockModificar y se apretó ENTER");
