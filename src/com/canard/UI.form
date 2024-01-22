@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.canard.UI">
-  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="1050" height="2918"/>
+      <xy x="20" y="20" width="2108" height="6223"/>
     </constraints>
     <properties>
-      <background color="-15264235"/>
+      <background color="-13158859"/>
       <foreground color="-8882314"/>
     </properties>
     <border type="none"/>
     <children>
-      <grid id="9f4ac" binding="ListaPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+      <grid id="9f4ac" binding="ListaPanel" layout-manager="GridLayoutManager" row-count="4" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-13487824"/>
@@ -24,8 +24,8 @@
         <children>
           <component id="b6b61" class="javax.swing.JComboBox" binding="listaProductosCombo">
             <constraints>
-              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
-                <preferred-size width="285" height="-1"/>
+              <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="285" height="50"/>
               </grid>
             </constraints>
             <properties>
@@ -43,8 +43,8 @@
           </component>
           <component id="b62d7" class="javax.swing.JTextField" binding="IDProducto">
             <constraints>
-              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-                <preferred-size width="150" height="-1"/>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
               </grid>
             </constraints>
             <properties>
@@ -54,150 +54,71 @@
               <text value="ID"/>
             </properties>
           </component>
-          <component id="31d39" class="javax.swing.JLabel" binding="labelListaProductos">
+          <hspacer id="7066c">
             <constraints>
-              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
-                <minimum-size width="-1" height="100"/>
-                <preferred-size width="-1" height="120"/>
-                <maximum-size width="-1" height="120"/>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="44222">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <vspacer id="c85d0">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="10"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <hspacer id="6ce3d">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="8" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <component id="e74a1" class="javax.swing.JLabel" binding="labelListaProductos">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="30"/>
               </grid>
             </constraints>
             <properties>
-              <font name="Consolas" size="28" style="1"/>
+              <font name="Consolas" size="36" style="1"/>
               <foreground color="-131851"/>
               <text value="Lista de Productos"/>
               <verticalAlignment value="0"/>
             </properties>
           </component>
+          <vspacer id="9e1ad">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+          </vspacer>
         </children>
       </grid>
-      <grid id="5ccaf" binding="StockPanel" layout-manager="GridLayoutManager" row-count="2" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+      <grid id="afbcd" binding="InfoPanel" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <background color="-12106172"/>
-        </properties>
-        <border type="none"/>
-        <children>
-          <component id="78490" class="javax.swing.JLabel">
-            <constraints>
-              <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <background color="-10920605"/>
-              <font name="Consolas" size="28" style="1"/>
-              <foreground color="-131851"/>
-              <horizontalAlignment value="11"/>
-              <text value="Modificar Stock"/>
-            </properties>
-          </component>
-          <component id="ab056" class="javax.swing.JButton" binding="botonMas">
-            <constraints>
-              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <background color="-12106172"/>
-              <text value="+"/>
-            </properties>
-          </component>
-          <component id="6dd35" class="javax.swing.JButton" binding="botonMenos">
-            <constraints>
-              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <background color="-12106172"/>
-              <text value="-"/>
-            </properties>
-          </component>
-          <hspacer id="5838a">
-            <constraints>
-              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
-                <preferred-size width="40" height="-1"/>
-              </grid>
-            </constraints>
-          </hspacer>
-          <hspacer id="2539a">
-            <constraints>
-              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
-                <preferred-size width="40" height="-1"/>
-              </grid>
-            </constraints>
-          </hspacer>
-          <component id="19f4c" class="javax.swing.JLabel">
-            <constraints>
-              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <background color="-7566454"/>
-              <font name="Consolas" size="16" style="0"/>
-              <foreground color="-131851"/>
-              <horizontalAlignment value="10"/>
-              <text value="Stock"/>
-              <verticalAlignment value="0"/>
-              <verticalTextPosition value="0"/>
-            </properties>
-          </component>
-          <component id="af2e6" class="javax.swing.JTextField" binding="cantModificarStock">
-            <constraints>
-              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="1" use-parent-layout="false">
-                <minimum-size width="70" height="-1"/>
-                <preferred-size width="200" height="-1"/>
-                <maximum-size width="400" height="-1"/>
-              </grid>
-            </constraints>
-            <properties>
-              <font name="Consolas" size="14" style="0"/>
-              <foreground color="-15264235"/>
-              <text value="Acá va un número entero"/>
-            </properties>
-          </component>
-        </children>
-      </grid>
-      <hspacer id="2ad6b">
-        <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="30" height="-1"/>
-          </grid>
-        </constraints>
-      </hspacer>
-      <hspacer id="e8133">
-        <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="30" height="-1"/>
-          </grid>
-        </constraints>
-      </hspacer>
-      <vspacer id="5f2b">
-        <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
-            <preferred-size width="-1" height="30"/>
-          </grid>
-        </constraints>
-      </vspacer>
-      <vspacer id="4d02f">
-        <constraints>
-          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
-            <preferred-size width="-1" height="10"/>
-          </grid>
-        </constraints>
-      </vspacer>
-      <grid id="afbcd" binding="InfoPanel" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-        <margin top="0" left="0" bottom="0" right="0"/>
-        <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <background color="-12106172"/>
+          <background color="-13158859"/>
           <foreground color="-12106172"/>
         </properties>
         <border type="none"/>
         <children>
-          <grid id="610a2" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="610a2" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
-              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <background color="-12106172"/>
@@ -228,13 +149,6 @@
                   </grid>
                 </constraints>
               </hspacer>
-              <vspacer id="80bea">
-                <constraints>
-                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="4" use-parent-layout="false">
-                    <preferred-size width="-1" height="15"/>
-                  </grid>
-                </constraints>
-              </vspacer>
               <component id="e327b" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="2" use-parent-layout="false"/>
@@ -255,10 +169,10 @@
               </vspacer>
             </children>
           </grid>
-          <grid id="83540" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="83540" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
-              <grid row="0" column="0" row-span="7" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="2" row-span="7" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <background color="-12106172"/>
@@ -267,11 +181,11 @@
             <children>
               <component id="6319e" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="4" use-parent-layout="false"/>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="4" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-10920605"/>
-                  <font name="Consolas" size="28" style="1"/>
+                  <font name="Consolas" size="24" style="1"/>
                   <foreground color="-131851"/>
                   <horizontalAlignment value="11"/>
                   <text value="Información del Producto"/>
@@ -279,7 +193,7 @@
               </component>
               <component id="d09b3" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="2" use-parent-layout="false"/>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="2" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-7566454"/>
@@ -293,7 +207,7 @@
               </component>
               <component id="b8764" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="2" use-parent-layout="false"/>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="2" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-7566454"/>
@@ -307,7 +221,7 @@
               </component>
               <component id="bf8ac" class="javax.swing.JLabel" binding="textFieldUltVenta">
                 <constraints>
-                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="2" use-parent-layout="false"/>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="2" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-7566454"/>
@@ -318,13 +232,14 @@
               </component>
               <component id="d5af5" class="javax.swing.JTextField" default-binding="true">
                 <constraints>
-                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="4" use-parent-layout="false">
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="4" use-parent-layout="false">
                     <minimum-size width="140" height="-1"/>
                     <preferred-size width="450" height="-1"/>
                     <maximum-size width="1200" height="-1"/>
                   </grid>
                 </constraints>
                 <properties>
+                  <editable value="false"/>
                   <font name="Consolas" size="14" style="0"/>
                   <foreground color="-15264235"/>
                   <text value="Último ingreso del producto"/>
@@ -332,13 +247,14 @@
               </component>
               <component id="e7a56" class="javax.swing.JTextField" binding="textFieldUltIngres">
                 <constraints>
-                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="4" use-parent-layout="false">
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="4" use-parent-layout="false">
                     <minimum-size width="140" height="-1"/>
                     <preferred-size width="450" height="-1"/>
                     <maximum-size width="1200" height="-1"/>
                   </grid>
                 </constraints>
                 <properties>
+                  <editable value="false"/>
                   <font name="Consolas" size="14" style="0"/>
                   <foreground color="-15264235"/>
                   <text value="Último ingreso del producto"/>
@@ -346,13 +262,14 @@
               </component>
               <component id="2cf97" class="javax.swing.JTextField" binding="textFieldStock">
                 <constraints>
-                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="4" use-parent-layout="false">
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="4" use-parent-layout="false">
                     <minimum-size width="140" height="-1"/>
                     <preferred-size width="450" height="-1"/>
                     <maximum-size width="1200" height="-1"/>
                   </grid>
                 </constraints>
                 <properties>
+                  <editable value="false"/>
                   <font name="Consolas" size="14" style="0"/>
                   <foreground color="-15264235"/>
                   <text value="Cantidad de stock del producto"/>
@@ -360,8 +277,191 @@
               </component>
               <hspacer id="cfb01">
                 <constraints>
-                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="30" height="-1"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <vspacer id="18ff6">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="10"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <vspacer id="710b8">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="4" use-parent-layout="false">
+                    <preferred-size width="-1" height="4"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <vspacer id="c34c3">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="4" use-parent-layout="false">
+                    <preferred-size width="-1" height="4"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <hspacer id="b0a5b">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="53023">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="eea73">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="20" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="74428">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="20" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <grid id="bdc46" binding="StockPanel" layout-manager="GridLayoutManager" row-count="4" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12106172"/>
+              <foreground color="-12106172"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7cef3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10920605"/>
+                  <font name="Consolas" size="24" style="1"/>
+                  <foreground color="-131851"/>
+                  <horizontalAlignment value="11"/>
+                  <text value="Modificar Stock"/>
+                </properties>
+              </component>
+              <component id="841da" class="javax.swing.JButton" binding="botonMas">
+                <constraints>
+                  <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <text value="+"/>
+                </properties>
+              </component>
+              <component id="55c75" class="javax.swing.JButton" binding="botonMenos">
+                <constraints>
+                  <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <hspacer id="f3bfb">
+                <constraints>
+                  <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="40" height="-1"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <hspacer id="53b38">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="40" height="-1"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <component id="d3f1d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-7566454"/>
+                  <font name="Consolas" size="16" style="0"/>
+                  <foreground color="-131851"/>
+                  <horizontalAlignment value="10"/>
+                  <text value="Cantidad"/>
+                  <verticalAlignment value="0"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+              <component id="d59cb" class="javax.swing.JTextField" binding="cantModificarStock">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="1" use-parent-layout="false">
+                    <minimum-size width="70" height="-1"/>
+                    <preferred-size width="100" height="-1"/>
+                    <maximum-size width="400" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-15264235"/>
+                  <text value="Acá va un número entero"/>
+                </properties>
+              </component>
+              <hspacer id="daffe">
+                <constraints>
+                  <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="-1"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <hspacer id="49089">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="30" height="-1"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <vspacer id="d4d2f">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="15"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <hspacer id="99d5f">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <hspacer id="b4076">
+                <constraints>
+                  <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <vspacer id="902a6">
+                <constraints>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="10"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <hspacer id="73201">
+                <constraints>
+                  <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="8" height="-1"/>
                   </grid>
                 </constraints>
               </hspacer>
